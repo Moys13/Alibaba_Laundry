@@ -11,6 +11,7 @@ header {
   height: 70px;
   background-color: #8573ff;
 }
+/* ======================================================== */
 /* =================HEADER=========================== */
 header .logo a img {
   width: 220px;
@@ -179,3 +180,18 @@ marquee {
   text-transform: uppercase;
 }
 /* ======================================================== */
+/* =================CONTEN ORDER=========================== */
+.content .order {
+  width: 50%;
+  margin: auto;
+}
+.content .order input[type="text"],
+.content .order input[type="password"],
+.content .order input[type="date"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
